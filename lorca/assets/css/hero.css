@@ -1,0 +1,23 @@
+#hero-pic.jumbotron {
+  color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+#scrolldown-btn.btn {
+  background:rgba(0,0,0, 0.5);
+  border: 0px solid transparent;
+  opacity: 0.8;
+}
+
+#scrolldown-btn.btn:hover {
+  background:rgba(0,0,0, 1);
+  opacity: 1.0;
+}
+
+#scroll-for-more {
+  padding-right: 15px;
+  margin-top: -8px;
+}

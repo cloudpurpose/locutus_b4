@@ -1,0 +1,407 @@
+/*
+ *  Call specific Google Fonts in layout object with layout->google_fonts() function
+ */
+
+ body {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+/* Color definitions needs for every theme */
+
+#sidebar {
+    /* background-color: #e9ecef; */
+    background-color: #f8f9fa;
+}
+
+#navbarSupportedContent {
+    
+}
+
+#navbarSupportedContent.navbar-collapse.show.mobile .nav-item:hover .nav-link {
+    color: #2780E3;
+}
+
+#navbarSupportedContent.navbar-collapse.show.mobile .dropdown-item:hover {
+    background-color: transparent;
+    color: #2780E3;
+}
+
+#prefooter {
+    background-color: #edeff2;
+    min-height: 15px;
+}
+
+#footer {
+    background-color: #dee2e7;
+    min-height: 15px;
+}
+
+.scroll-to-top {
+	color: #fff;
+    background: rgba(52, 58, 64, 0.5);
+	line-height: 46px;
+}
+
+.scroll-to-top:focus,
+.scroll-to-top:hover {
+	color: #cccccc;
+}
+
+.scroll-to-top:hover {
+    background: #262626;
+}
+
+/* Style definitions specific to gt footer */
+
+#spacer-lg {
+    height: 200px;
+    width: 100%;
+    display: block;
+}
+
+#spacer-md {
+    height: 300px;
+    width: 100%;
+    display: block;
+}
+
+#spacer-sm {
+    height: 600px;
+    width: 100%;
+    display: block;
+}
+
+#spacer-xs {
+    height: 0px;
+    width: 100%;
+    display: block;
+}
+
+.prefooter {
+    border-top: 1px solid #cccccc;
+    background-color: #e5e5e5;
+    color: #262626;
+}
+
+#footer-3 ul, 
+#address_text p {
+    list-style: none;
+    padding: 0 0 0 1rem;
+    border-left: 1px solid #fff;
+}
+#address_text p,
+#footer-3 ul li {
+    margin: .5em 0;
+}
+#footer-3 p, 
+#footer-3 a, 
+#address_text p, 
+#copyright p {
+    color: #262626;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: .85rem;
+    font-weight: 400;
+    border-bottom: none;
+}
+#footer-3 a {
+    text-decoration: none;
+}
+#copyright p {
+    width: 100%;
+    display: block;
+    text-align: right;
+}
+#copyright img {
+    background-size: auto auto;
+    border: 0;
+    vertical-align: top;
+    width: 140px;
+}
+#copyright p, 
+#copyright img {
+    font-size: 0.85rem;
+    font-weight: 400;
+    float: right !important;
+}
+#footer-2 {
+    background: #b3a369;
+    background: linear-gradient(to right,#b3a369 0%,#bfb37c 100%);
+    background: -moz-linear-gradient(left,#b3a369 0%,#bfb37c 100%);
+    background: -webkit-linear-gradient(left,#b3a369 0%,#bfb37c 100%);
+    height: 16px;
+}
+#footer-3 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    min-height: 30px;
+    background-color: #b3a369;
+}
+.ctn-footer img {
+    background-size: auto auto;
+    border: 0;
+    vertical-align: top;
+    width: 200px;
+}
+#spacer-85 {
+    width: 100%;
+    display: block;
+    height: 85px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style definitions specific to gt theme */
+
+a {
+    color: #004f9f;
+}
+
+a.disabled {
+    color: #999999;
+    pointer-events: none;
+}
+
+a.disabled:hover {
+    cursor:not-allowed;
+}
+
+.navbar-brand {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#theme-logo {
+    height: 50px;
+    margin-right: 20px;
+    margin-left: 15px;
+}
+
+#banner-text {
+    display: inline-block;
+    margin-top: 0px;
+    font-size: 24px;
+    font-family: 'Abel', 'Roboto', sans-serif;
+}
+
+#navbar-horizontal.navbar {
+    min-height: 86.3px;
+    background-color: #b3a369 !important;
+}
+
+#navbarSupportedContent.navbar-collapse {
+    border-bottom: 1px solid #dddddd;
+}
+
+#navbarSupportedContent .bg-white {
+    background-color: #e5e5e5 !important;
+}
+
+#navbarSupportedContent .dropdown-menu {
+    background-color: #e5e5e5 !important;
+}
+
+#navbarSupportedContent .dropdown-menu a:hover,
+#navbarSupportedContent .dropdown-menu a:focus {
+    background-color: #e5e5e5 !important;
+}
+
+#navbarSupportedContent.navbar-collapse.show .nav-item {
+    padding-left: 0rem;
+    padding-right: 0.3rem;
+}
+
+#navbarSupportedContent a {
+    color: #333333;
+    font-size: 14.4px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+#navbarSupportedContent .nav-item {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+#navbarSupportedContent .nav-item .nav-link {
+    border-right: 2px solid #b3a369;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 0.5rem;
+}
+
+#navbarSupportedContent .nav-item .nav-link:hover {
+    background-color: #e5e5e5;
+}
+
+#navbarSupportedContent.navbar-collapse.mobile.show .nav-item .nav-link:hover {
+    background-color: #e5e5e5;
+}
+
+#navbarSupportedContent.navbar-collapse.mobile.show .dropdown-menu a:hover,
+#navbarSupportedContent.navbar-collapse.mobile.show .dropdown-menu a:focus {
+    background-color: #e5e5e5 !important;
+}
+
+#navbarSupportedContent .nav-item.last .nav-link {
+    border-right: 0px solid transparent;
+}
+
+#navbarSupportedContent.navbar-collapse.mobile.show .nav-item .nav-link {
+    border-right: 0px solid transparent;
+}
+
+.navbar-dark .navbar-toggler {
+    color: rgba(38, 38, 38, 0.8);
+    border-color: rgba(38, 38, 38, 0.5);
+}
+
+#sidebar {
+    background-color: #373a3c;
+    padding-top: 30px !important;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#sidebar .sidebar-header {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#sidebar .navbar {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#sidebar .navbar.bg-light {
+    background-color: #373a3c !important;
+}
+
+#sidebar .navbar .navbar-nav {
+    width: 100%;
+}
+
+#sidebar .navbar .nav-item {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#sidebar .navbar .nav-item:hover {
+    background-color: #1f2021 !important;
+}
+
+#sidebar .navbar a.nav-link {
+    color: #cccccc;
+}
+
+#sidebar .navbar a:hover.nav-link {
+    color: #ffffff;
+}
+
+.btn-primary {
+    background-color: #004f9f;
+    border-color: #004f9f;
+}
+
+.btn-primary:hover {
+    color: #eeeeee;
+    background-color: #003f7f;
+    border-color: #003f7f;
+}
+
+h1.page-title {
+    font-size: 28px;
+    font-weight: 700;
+    display: block;
+    width: 100%;
+    padding-top: 0px;
+    padding-bottom: 12.5px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #857437;
+}
+
+#main h2 {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #004f9f !important;
+    color: #ffffff !important;
+    cursor: pointer;
+}
+
+.page-link { 
+    color: #004f9f !important;
+}
+
+.page-item.active .page-link {
+    background-color: #004f9f !important;
+    border-color: #004f9f !important;
+    color: #ffffff !important;
+}
+
+.page-item:hover .page-link {
+    background-color: #004f9f !important;
+    border-color: #004f9f !important;
+    color: #ffffff !important;
+}
+
+.found {
+    /* background-color: #fcf8e3; */
+    background-color: yellow;
+    color: #373a3c;
+}
+
+.table-hover tbody tr:hover span.found {
+    background-color: #004f9f !important;
+    color: #ffffff !important;
+}
+
+.card {
+    border: 1px solid #cccccc;
+}
+
+h2.card-header,
+h3.card-header {
+    font-size: 16px !important;
+    font-weight: 700 !important;
+}
+
+.card-header {
+    background-color: #e5e5e5;
+    border-bottom: 1px solid #cccccc;
+}
+
+#gallery {
+    border: 1px solid #cccccc;
+    background-color: #f8f9fa;
+    max-height: 650px;
+    overflow-y: scroll;
+}
+
+#gallery .gallery-image {
+    max-height: 200px;
+}
+
+#gallery .gallery-image:hover {
+    cursor: pointer;
+}
+
+#gallery .gallery-image.img-thumbnail:hover {
+    border-color: #004f9f;
+}
+
+.byline {
+    font-style: italic;
+}
+
+@media only screen and (max-width: 576px) {
+    #theme-logo {
+        height: 40px !important;
+        margin-right: 10px !important;
+        margin-left: 10px !important;
+    }
+}
