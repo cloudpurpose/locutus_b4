@@ -1,0 +1,50 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE feed SYSTEM "feed.dtd">
+<feed>
+   <alert>
+      <itemID>alert_dev0t</itemID>
+      <customClass>bsclassic-alert-success</customClass>
+      <customStyle>null</customStyle>
+      <faIcon>fa-info-circle</faIcon>
+      <body><![CDATA[<span>Today (Tuesday, Oct. 22nd) between 12:00 PM and 1:00 PM Banner Test (BTEST) will not be available so that EIS can update initialization parameters for the instance (i.e.: downtime required to restart with new parameters). <a href="#">Read more</a></span>]]></body>
+      <display>
+         <from>20191231235959</from>
+         <until>20200131160000</until>
+      </display>
+      <audience>
+         <alpha>Y</alpha>
+         <beta>N</beta>
+         <gamma>Y</gamma>
+         <delta>Y</delta>
+         <theta>Y</theta>
+         <omega>Y</omega>
+      </audience>
+      <area>
+         <main>Y</main>
+         <hero>N</hero>
+      </area>
+   </alert>
+   <alert>
+      <itemID>alert_dev0t</itemID>
+      <customClass>bsclassic-alert-warning</customClass>
+      <customStyle>null</customStyle>
+      <faIcon>fa-info-circle</faIcon>
+      <body><![CDATA[<span>Today (Tuesday, Oct. 22nd) between 12:00 PM and 1:00 PM Banner Test (BTEST) will not be available so that EIS can update initialization parameters for the instance (i.e.: downtime required to restart with new parameters). <a href="#">Read more</a></span>]]></body>
+      <display>
+         <from>20191231235959</from>
+         <until>20200129160000</until>
+      </display>
+      <audience>
+         <alpha>Y</alpha>
+         <beta>N</beta>
+         <gamma>Y</gamma>
+         <delta>Y</delta>
+         <theta>Y</theta>
+         <omega>Y</omega>
+      </audience>
+      <area>
+         <main>N</main>
+         <hero>Y</hero>
+      </area>
+   </alert>
+</feed>

@@ -1,0 +1,200 @@
+.bsclassic-show {
+    display: block !important;
+}
+
+.bsclassic-hidden {
+    display: none !important;
+}
+
+.bsclassic-invisible {
+    visibility: hidden !important;
+}
+
+.bsclassic-alert-success {
+    color: #3c763d !important;
+    background-color: #dff0d8 !important;
+    border: 1px solid #d6e9c6 !important;
+    border-radius: 4px !important;
+}
+
+.bsclassic-alert-info {
+    color: #7e949e !important;
+    background-color: #d9edf7 !important;
+    border: 1px solid #bce8f1 !important;
+    border-radius: 4px !important;
+}
+
+.bsclassic-alert-warning {
+    color: #8a6d3b !important;
+    background-color: #fcf8e3 !important;
+    border: 1px solid #faebcc !important;
+    border-radius: 4px !important;
+}
+
+.bsclassic-alert-danger {
+    color: #a94442 !important;
+    background-color: #f2dede !important;
+    border: 1px solid #ebccd1 !important;
+    border-radius: 4px !important;
+}
+
+.bsclassic-alert-default {
+    color: #333 !important;
+    background-color: #f7f7f9 !important;
+    border: 1px solid #e1e1e8 !important;
+    border-radius: 4px !important;
+}
+
+.bsclassic-btn-primary {
+    color: #fff !important;
+    background-color: #337ab7 !important;
+    border: 1px solid #2e6da4 !important;
+    border-radius: 4px !important;
+}
+
+.bsclassic-btn-primary:hover,
+.bsclassic-btn-primary:focus {
+    background-color: #285f8f !important;
+}
+
+.bsclassic-btn-success {
+    color: #fff !important;
+    background-color: #5cb85c !important;
+    border: 1px solid #4cae4c !important;
+    border-radius: 4px !important;
+}
+
+.bsclassic-btn-success:hover,
+.bsclassic-btn-success:focus {
+    background-color: #449d44 !important;
+}
+
+.bsclassic-btn-info {
+    color: #fff !important;
+    background-color: #5bc0de !important;
+    border: 1px solid #46b8da !important;
+    border-radius: 4px !important;
+}
+
+.bsclassic-btn-info:hover,
+.bsclassic-btn-info:focus {
+    background-color: #31b0d5 !important;
+}
+
+.bsclassic-btn-warning {
+    color: #fff !important;
+    background-color: #f0ad4e !important;
+    border: 1px solid #eea236 !important;
+    border-radius: 4px !important;
+}
+
+.bsclassic-btn-warning:hover,
+.bsclassic-btn-warning:focus {
+    background-color: #ec971f !important;
+}
+
+.bsclassic-btn-danger {
+    color: #fff !important;
+    background-color: #d9534f !important;
+    border: 1px solid #d43f3a !important;
+    border-radius: 4px !important;
+}
+
+.bsclassic-btn-danger:hover,
+.bsclassic-btn-danger:focus {
+    background-color: #c9302c !important;
+}
+
+.bsclassic-btn-default {
+    color: #333 !important;
+    background-color: #fff !important;
+    border: 1px solid #ccc !important;
+    border-radius: 4px !important;
+}
+
+.bsclassic-btn-default:hover,
+.bsclassic-btn-default:focus {
+    background-color: #eeeeee !important;
+}
+
+.bsclassic-btn-purple {
+    color: #fff !important;
+    background-color: #ad4ef0 !important;
+    border: 1px solid #a236ee !important;
+    border-radius: 4px !important;
+}
+
+.bsclassic-btn-purple:hover,
+.bsclassic-btn-purple:focus {
+    background-color: #971fec !important;
+}
+
+.bsclassic-text-muted {
+    color: #777 !important;
+}
+
+.bsclassic-text-primary {
+    color: #337ab7 !important;
+}
+
+.bsclassic-text-success {
+    color: #3c763d !important;
+}
+
+.bsclassic-text-info {
+    color: #31708f !important;
+}
+
+.bsclassic-text-warning {
+    color: #8a6d3b !important;
+}
+
+.bsclassic-text-danger {
+    color: #a94442 !important;
+}
+
+.bsclassic-bg-primary {
+    color: #fff !important;
+    background-color: #337ab7 !important;
+}
+
+.bsclassic-bg-success {
+    background-color: #dff0d8 !important;
+}
+
+.bsclassic-bg-info {
+    background-color: #d9edf7 !important;
+}
+
+.bsclassic-bg-warning {
+    background-color: #fcf8e3 !important;
+}
+
+.bsclassic-bg-danger {
+    background-color: #f2dede !important;
+}
+
+.bsclassic-bg-default {
+    background-color: #f7f7f9 !important;
+}
+
+.bsclassic-breadcrumb {
+    padding: 8px 15px !important;
+    margin-bottom: 20px !important;
+    list-style: none !important;
+    background-color: #f5f5f5 !important;
+    border-radius: 4px !important;
+}
+
+.bsclassic-breadcrumb>.active {
+    color: #777 !important;
+}
+
+.bsclassic-breadcrumb>li {
+    display: inline-block !important;
+}
+
+.bsclassic-breadcrumb a {
+    /* color: #337ab7 !important;
+    text-decoration: none !important; */
+}

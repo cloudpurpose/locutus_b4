@@ -1,0 +1,42 @@
+#navbar-horizontal,
+#navbarSupportedContent,
+#hero-pic,
+#sidebar,
+#footer-row,
+#dev-mode-area {
+    display: none;
+}
+
+.breadcrumb,
+.scroll-to-top {
+    display: none;
+}
+
+#main {
+    font-family: "Times New Roman", Times, serif;
+    width: 99% !important;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#main h1,
+#main h2,
+#main h3,
+#main h4,
+#main h5 {
+    font-size: 1em;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+#main p {
+    font-size: 1em;
+    font-weight: normal;
+    margin-bottom: 1em;
+}
+
+.card.node {
+	border: 0px solid transparent;
+}
